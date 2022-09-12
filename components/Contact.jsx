@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 import contactus from "../public/assets/contact-us.jpg";
-import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -27,16 +27,24 @@ const Contact = () => {
 
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+                <a href="https://www.linkedin.com/in/jawonmwinbush/">
                 <FaLinkedin size={25} />
+                </a>
               </div>
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+                <a href="https://twitter.com/jawon_winbush">
                 <FaTwitter size={25} />
+                </a>
               </div>
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
-                <FaFacebook size={25} />
+              <a href="https://www.instagram.com/jawinbush/">
+                <FaInstagram size={25} />
+              </a>
               </div>
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+                <a href="https://github.com/jwinbush">
                 <FaGithub size={25} />
+                </a>
               </div>
             </div>
           </div>
